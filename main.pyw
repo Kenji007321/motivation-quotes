@@ -23,7 +23,7 @@ def sendemail(quote):
                         )
 
 
-if day_of_week == 6:
+if day_of_week == 1:
     with open(file_quotes, "r") as quote_file:
         all_quotes = quote_file.readlines()
         random_quote = random.choice(all_quotes)
